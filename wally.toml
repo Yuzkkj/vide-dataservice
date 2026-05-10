@@ -1,0 +1,19 @@
+[package]
+name = "yuzkkj/vide-dataservice"
+version = "0.1.1"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+repository = "https://github.com/Yuzkkj/vide-dataservice"
+authors = ["Yuz"]
+exclude = ["**"]
+include = [
+    "default.project.json",
+    "src",
+    "src/**",
+    "wally.toml",
+]
+
+[dependencies]
+DataService = "leifstout/dataservice@1.0.0"
+Sift = "csqrl/sift@0.0.11"
+Vide = "centau/vide@0.4.0"
